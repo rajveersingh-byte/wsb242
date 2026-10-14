@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Basic Design</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .main {
+            width: 1000px;
+            height: 550px;
+            background-color: lavender;
+        }
+
+        .row1 {
+            width: 1000px;
+            height: 100px;
+            background-color: blue;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+        }
+
+
+        .row2 {
+            width: 1000px;
+            height: 200px;
+            display: flex;
+        }
+
+        .row2c1 {
+            width: 250px;
+            height: 200px;
+            background-color: aqua;
+        }
+
+        .row2c2 {
+            width: 750px;
+            height: 200px;
+        }
+
+        .img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .menu {
+            width: 100%;
+            height: 40px;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        .row3 {
+            width: 1000px;
+            height: 100px;
+            border: 0.5px dashed red;
+            text-align: center;
+        }
+
+        .row4{
+            width: 1000px;
+            height: 100px;
+            display: flex;
+        }
+
+        .row4c2{
+            width: 750px;
+            height: 100px;
+        }
+
+        .row4c1{
+            width: 250px;
+            height: 100px;
+        }
+
+        
+        .menu1 {
+            width: 100%;
+            height: 20px;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        footer{
+            width: 1000px;
+            height: 50px;
+            text-align: center;
+            border: 1px double green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="row1">
+            <h1>Welcome to WsCube Tech</h1>
+        </div>
+
+        <div class="row2">
+            <div class="row2c1">
+                <div class="menu">Home</div>
+                <div class="menu">About</div>
+                <div class="menu">Services</div>
+                <div class="menu">Gallery</div>
+                <div class="menu">Contact us</div>
+            </div>
+
+            <div class="row2c2">
+                <img class="img" src="https://book-traker-nine.vercel.app/old-bookswebp.webp" alt="WsCube Tech">
+            </div>
+        </div>
+
+
+        <div class="row3">
+            <h2>Our Client</h2>
+        </div>
+
+        <div class="row4">
+
+            <div class="row4c2">
+                <img class="img" src="https://book-traker-nine.vercel.app/old-bookswebp.webp" alt="WsCube Tech">
+            </div>
+
+            <div class="row4c1">
+                <div class="menu1">Home</div>
+                <div class="menu1">About</div>
+                <div class="menu1">Services</div>
+                <div class="menu1">Gallery</div>
+                <div class="menu1">Contact us</div>
+            </div>
+
+
+        </div>
+
+
+        <footer>
+            Home | About | Sevices | Gallery | Contact
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1200px;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.container div {
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+
+    font-size: 28px;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    transition: 2s;
+}
+
+.container div:nth-child(1) {
+    background: url('https://deen3evddmddt.cloudfront.net/uploads/offline-courses/k-sir-img.webp') no-repeat center;
+    background-size: cover;
+    filter: brightness(0);
+}
+
+
+.container div:nth-child(2) {
+    background: url('https://deen3evddmddt.cloudfront.net/uploads/mentors/pradeep%20rai.png') no-repeat center;
+    background-size: cover;
+    filter: brightness(0);
+}
+
+.container div:nth-child(3) {
+    background: url('https://deen3evddmddt.cloudfront.net/uploads/mentors/Sandeep%20Bhati.png') no-repeat center;
+    background-size: cover;
+    filter: brightness(0);
+}
+
+.container div:nth-child(4) {
+    background: url('https://deen3evddmddt.cloudfront.net/uploads/mentors/Rajveer.png') no-repeat center;
+    background-size: cover;
+    filter: brightness(0);
+}
+
+.container div:nth-child(5) {
+    background: url('https://deen3evddmddt.cloudfront.net/uploads/mentors/Himanshu%20Tiwari.png') no-repeat center;
+    background-size: cover;
+    filter: brightness(0);
+}
+
+
+.container div:nth-child(1):hover,
+.container div:nth-child(2):hover,
+.container div:nth-child(3):hover,
+.container div:nth-child(4):hover,
+.container div:nth-child(5):hover {
+    filter: brightness(1);
+    cursor: pointer;
+}

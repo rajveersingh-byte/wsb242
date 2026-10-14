@@ -1,0 +1,100 @@
+/* Mobile */
+@media only screen and (min-width : 300px) and (max-width : 600px) {
+
+    .logo {
+        width: 100%;
+        text-align: center;
+        box-shadow: 0px 0px 10px #ccc;
+        position: sticky;
+        top: 0;
+        background: white;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
+    .social-button {
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+        background: white;
+        box-shadow: 0px 0px 10px #ccc;
+        display: flex;
+        padding: 10px;
+    }
+
+    .social-button button {
+        width: 50%;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-content>h1 {
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .get-certificate,
+    .certificate {
+        width: 100%;
+    }
+
+    .get-row {
+        flex-direction: column;
+    }
+
+
+    .certificate div:nth-child(1) {
+        display: none;
+    }
+
+    .certificate div:nth-child(2) {
+        padding: 10px;
+        position: static;
+        text-align: center;
+    }
+
+      .certificate div:nth-child(2) img{
+        width: 100%;
+      }
+
+    .certificate div:nth-child(3) {
+        display: none;
+    }
+}
+
+/* Tab */
+@media only screen and (min-width : 601px) and (max-width : 1200px) {
+
+    .logo {
+        width: 100%;
+        text-align: center;
+        box-shadow: 0px 0px 10px #ccc;
+        position: sticky;
+        top: 0;
+        background: white;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
+    .social-button {
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+        background: white;
+        box-shadow: 0px 0px 10px #ccc;
+        display: flex;
+        padding: 10px;
+    }
+
+    .social-button button {
+        width: 50%;
+    }
+}
